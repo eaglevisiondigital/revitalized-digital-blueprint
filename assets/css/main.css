@@ -50,3 +50,51 @@
 @media(max-width:1180px){.refuel-commerce-layout{grid-template-columns:.68fr 1.32fr;gap:38px}.commerce-mobile{width:min(205px,32%)}}
 @media(max-width:900px){.refuel-commerce-layout{grid-template-columns:1fr}.refuel-commerce-visual{padding:8px 18px 48px 0}.commerce-mobile{width:min(220px,30%)}}
 @media(max-width:600px){.refuel-commerce-visual{padding:0}.commerce-browser img{border-radius:12px}.commerce-mobile{position:relative;right:auto;bottom:auto;width:62%;margin:-18px 0 0 auto}.commerce-browser figcaption{text-align:left}.commerce-mobile figcaption{display:block}}
+
+/* Build 4 — Executive Mastering Pass
+   Preservation-first refinements: no overlays, no new controls, no structural redesign. */
+html,body{max-width:100%;}
+body{overflow-x:clip;}
+main,.scene,.scene-inner,.cover-grid,.vision-layout,.opportunity-grid,.founders-layout,.ecosystem-layout,.website-layout,.companion-layout,.feature-layout,.ask-layout,.notification-layout,.dashboard-layout,.diagram-layout,.recommendation-layout,.refuel-commerce-layout{min-width:0;}
+img,svg,video,canvas{max-width:100%;height:auto;}
+.scene{isolation:isolate;contain:paint;}
+.scene-inner>*{min-width:0;}
+.cover-glow,.stage-orbit,.closing-glow{pointer-events:none;}
+.mockup-window,.browser-shell,.feature-visual img,.dashboard-frame img,.diagram-visual img,.commerce-browser img{backface-visibility:hidden;transform-style:preserve-3d;}
+.rail nav{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;}
+.rail nav a{flex-shrink:0;}
+.rail nav a:focus-visible,.primary-link:focus-visible,.menu-toggle:focus-visible{outline:2px solid var(--gold);outline-offset:4px;}
+.skip-link{position:fixed;z-index:200;left:18px;top:12px;padding:11px 15px;border-radius:9px;background:#fff;color:var(--ink);font-weight:700;text-decoration:none;transform:translateY(-160%);transition:transform .2s var(--ease);}
+.skip-link:focus{transform:none;}
+.feature-visual,.dashboard-frame,.diagram-visual,.commerce-browser,.commerce-mobile{min-width:0;}
+.feature-visual img,.dashboard-frame img,.diagram-visual img,.commerce-browser img,.commerce-mobile img{object-fit:contain;}
+.section-index{pointer-events:none;user-select:none;}
+
+@media(max-width:1180px){
+  .scene-inner{width:min(1100px,calc(100% - 48px));}
+  .cover-stage{min-width:0;}
+  .mockup-window{width:100%;}
+  .stage-orbit{max-width:92vw;max-height:92vw;}
+}
+@media(max-width:900px){
+  body.menu-open{overflow:hidden;}
+  .rail{max-width:88vw;box-shadow:24px 0 70px rgba(0,0,0,.42);}
+  .rail nav{padding-bottom:24px;}
+  .scene{overflow:clip;}
+  .scene-inner{min-height:auto;}
+  .cover-stage{overflow:visible;}
+  .mockup-window{max-width:700px;}
+  .feature-visual img,.dashboard-frame img,.diagram-visual img{max-height:none;}
+}
+@media(max-width:600px){
+  .scene-inner{width:calc(100% - 28px);}
+  .cover-stage{width:100%;}
+  .mockup-window{width:100%;}
+  .cover-logo{max-width:78%;}
+  .letter-card,.feature-copy,.diagram-copy,.dashboard-copy,.notification-copy,.ask-copy{min-width:0;}
+  .summary-outcome,.notification-stream article,.recommendation-outcomes span{overflow-wrap:anywhere;}
+  .commerce-mobile{max-width:260px;}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}
+}
