@@ -36,3 +36,17 @@
 @media(max-width:1180px){.ask-layout,.notification-layout,.dashboard-layout,.diagram-layout,.diagram-layout.reverse-diagram,.recommendation-layout{gap:40px}.evd-grid article{min-height:230px}}
 @media(max-width:900px){.ask-layout,.notification-layout,.dashboard-layout,.diagram-layout,.diagram-layout.reverse-diagram,.recommendation-layout{grid-template-columns:1fr}.reverse-diagram .diagram-copy,.reverse-diagram .diagram-visual{order:initial}.dashboard-copy,.diagram-copy{max-width:700px}.evd-grid{grid-template-columns:1fr}.evd-grid article{min-height:auto}.evd-manifesto{flex-direction:column;align-items:flex-start}.recommendation-number{display:none}.closing-inner{padding-bottom:110px}}
 @media(max-width:600px){.ask-copy h2,.notification-copy h2,.dashboard-copy h2,.diagram-copy h2,.evd-heading h2,.recommendation-copy h2,.closing-inner h2{font-size:44px}.notification-stream article{grid-template-columns:34px 1fr}.notification-stream time{display:none}.recommendation-outcomes{grid-template-columns:1fr}.closing-signature{flex-direction:column}.closing-logo{width:180px}.evd-manifesto strong,.evd-manifesto span,.evd-manifesto em{font-size:18px}}
+
+/* Build 3.1 — ReFuel e-commerce website integration */
+.refuel-commerce-layout{display:grid;grid-template-columns:.58fr 1.42fr;gap:54px;align-items:center}
+.refuel-commerce-visual{position:relative;min-width:0;padding:10px 24px 42px 0}
+.commerce-browser,.commerce-mobile{margin:0;position:relative}
+.commerce-browser:before{content:"";position:absolute;inset:8% 4% -4%;z-index:-1;background:rgba(18,105,76,.18);filter:blur(48px);border-radius:50%}
+.commerce-browser img{display:block;width:100%;border-radius:18px;border:1px solid #d8cfbd;box-shadow:0 34px 86px rgba(28,52,40,.25)}
+.commerce-browser figcaption,.commerce-mobile figcaption{margin-top:10px;color:#6f7e76;font:700 9px/1.3 Manrope,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.commerce-mobile{position:absolute;right:0;bottom:0;width:min(230px,31%);padding:8px;background:#fffdf8;border:1px solid #d6ccb9;border-radius:18px;box-shadow:0 24px 56px rgba(23,46,35,.28)}
+.commerce-mobile img{display:block;width:100%;border-radius:12px}
+.commerce-mobile figcaption{text-align:center;margin:8px 0 2px;color:#315247}
+@media(max-width:1180px){.refuel-commerce-layout{grid-template-columns:.68fr 1.32fr;gap:38px}.commerce-mobile{width:min(205px,32%)}}
+@media(max-width:900px){.refuel-commerce-layout{grid-template-columns:1fr}.refuel-commerce-visual{padding:8px 18px 48px 0}.commerce-mobile{width:min(220px,30%)}}
+@media(max-width:600px){.refuel-commerce-visual{padding:0}.commerce-browser img{border-radius:12px}.commerce-mobile{position:relative;right:auto;bottom:auto;width:62%;margin:-18px 0 0 auto}.commerce-browser figcaption{text-align:left}.commerce-mobile figcaption{display:block}}

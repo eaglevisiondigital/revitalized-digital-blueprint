@@ -16,3 +16,8 @@ Fresh executive presentation codebase containing Sections 1–30.
 
 ## Deployment
 Upload `index.html`, `README.md`, and the complete `assets/` folder to the repository root. No build command is required. Netlify publish directory is the repository root.
+
+
+## Build 3.1 update
+- Added the approved ReFuel e-commerce website homepage and shop mockup to the ReFuel Commerce section.
+- Retained the approved ReFuel mobile store mockup as a connected companion visual.
