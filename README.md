@@ -1,18 +1,14 @@
-# ReVitalized Academy Digital Ecosystem Blueprint — Build 1
+# ReVitalized Academy — Digital Ecosystem Blueprint
 
-A fresh executive presentation build created from scratch for Justyn and Elle Oliver by Eagle Vision Digital.
+## Build 2 — Excellence Edition
 
-## Included sections
-1. Cover
-2. Letter from Eagle Vision Digital
-3. Executive Vision
-4. Executive Summary
-5. The Opportunity
-6. A Better Way Forward
-7. Founders Story
-8. Transformation Philosophy
-9. Digital Ecosystem Overview
-10. Digital Front Door — Website
+Fresh executive presentation website prepared for Justyn and Elle Oliver by Eagle Vision Digital.
 
-## Deployment
-Upload `index.html`, `README.md`, and the complete `assets` folder to the repository root. No build command is required. Netlify publish directory may be left blank or set to `/`.
+### Included
+- Build 1 foundation and Sections 1–10
+- Sections 11–20: Daily Health Companion, Dashboard, Coaching, Community, Courses, Meal Plans, Recipes, Workouts, Progress and ReFuel Store
+- Responsive executive navigation, scroll progress, reveal motion and keyboard presentation controls
+- Approved visual assets optimized for web delivery
+
+### Deployment
+Static site. No build command is required. Deploy the repository root.
