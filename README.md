@@ -1,21 +1,23 @@
-# ReVitalized Academy Digital Ecosystem Blueprint™
-## Build 4 — Executive Master Edition
+# ReVitalized Academy Digital Ecosystem Blueprint — Build 3 Excellence Edition
 
-This release is a preservation-first refinement of Build 3.1. It retains the approved 30-section visual presentation and ReFuel e-commerce integration while strengthening responsive reliability, accessibility, loading behavior, and cross-browser stability.
+Fresh executive presentation codebase containing Sections 1–30.
 
-### Build 4 refinements
-- Preserved Build 3.1 layouts, navigation, typography, section order, and visual identity
-- Added robust horizontal-overflow and clipping protection
-- Improved responsive behavior across desktop, laptop, tablet, and phone widths
-- Kept all approved visuals, including the ReFuel e-commerce website and connected mobile store
-- Improved image loading and decoding without changing presentation quality
-- Refined reveal behavior and reduced-motion support
-- Improved navigation state, keyboard focus, menu locking, and accessibility labels
-- Added skip navigation and safer mobile menu behavior
-- No overlays, floating presentation controls, side panels, or forced redesign patterns
+## Build 3 additions
+21. ReFuel Ambassador Center
+22. Ask ReVitalized
+23. Family Hub
+24. Timely Encouragement
+25. Coach Dashboard
+26. Growth Flywheel / Revenue Ecosystem
+27. The Invisible Foundation / Technology Architecture
+28. Why Eagle Vision Digital
+29. Executive Recommendation
+30. Closing Vision
 
-### Deployment
-Upload `index.html` and the complete `assets` folder to the repository root. Keep the directory structure unchanged.
+## Deployment
+Upload `index.html`, `README.md`, and the complete `assets/` folder to the repository root. No build command is required. Netlify publish directory is the repository root.
 
-### Recommended commit
-`Build 4 — Executive Master Edition`
+
+## Build 3.1 update
+- Added the approved ReFuel e-commerce website homepage and shop mockup to the ReFuel Commerce section.
+- Retained the approved ReFuel mobile store mockup as a connected companion visual.
